@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pytorch-text"
+version = "0.1.0"
+description = ""
+authors = ["David Edwards"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+torch = "^1.8.1"
+torchtext = "^0.9.1"
+jupyter = "^1.0.0"
+jupyterlab = "^3.0.14"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.3"
+pylint = "^2.7.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
